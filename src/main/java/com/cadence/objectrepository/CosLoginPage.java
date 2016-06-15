@@ -26,6 +26,8 @@ public class CosLoginPage {
 		return loginButton;
 	}
 	
+	//verify update to GIT repo
+	
 	
 	
 }
