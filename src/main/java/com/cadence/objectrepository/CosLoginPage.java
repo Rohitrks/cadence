@@ -26,7 +26,7 @@ public class CosLoginPage {
 		return loginButton;
 	}
 	
-	//verify update to GIT repo
+	//verify the updat for GIT 6/27/2016 12:15 desktop rs
 	
 	
 	
