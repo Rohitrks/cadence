@@ -10,13 +10,13 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>2.52.0</version>
+			<version>3.0.1</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-server</artifactId>
-			<version>2.35.0</version>
+			<version>3.0.1</version>
 		</dependency>
 
 		<dependency>
@@ -25,10 +25,18 @@
 			<version>6.9.10</version>
 			<scope>test</scope>
 		</dependency>
+
+
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.11</version>
+			<version>3.13</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.13</version>
 		</dependency>
 
 
@@ -37,10 +45,13 @@
 			<artifactId>log4j-api</artifactId>
 			<version>2.6.1</version>
 		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
-			<version>2.6.1</version>
+			<version>2.6.2</version>
 		</dependency>
 
 
@@ -54,9 +65,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19.1</version>
 				<configuration>
-				<suiteXmlFiles>
-					<suiteXmlFiles>testng.xml</suiteXmlFiles>
-				</suiteXmlFiles>
+					<suiteXmlFiles>
+						<suiteXmlFiles>testng.xml</suiteXmlFiles>
+					</suiteXmlFiles>
 				</configuration>
 
 			</plugin>

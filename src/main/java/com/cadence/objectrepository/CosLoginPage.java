@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class CosLoginPage {
 
-	@FindBy (xpath="//input[@id='pgId:frmId:iptTxt']")
+	@FindBy (id="pgId:frmId:iptTxt")
 	private WebElement loginId;
 
 	public WebElement getLoginId(){
