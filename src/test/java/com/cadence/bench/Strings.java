@@ -10,6 +10,8 @@ public class Strings {
 		String s3=new String("ccd");
 		String s4=new String("ccD");
 
+	StringBuffer sf1=new StringBuffer();
+	
 
 		System.out.println(s3.equals(s4));
 		System.out.println(s3.equalsIgnoreCase(s4));
