@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class RemoveCookiesTest {
 
 	
-	@Test()
+	@Test(groups="n")
 
 	public void removeCookiesTest(){
 		

@@ -2,9 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<test name="Test" parallel="false" preserve-order="false" verbose="2">
-		<classes>
-			<class name="com.cadence.bench.RobotAuto" />			
-		</classes>
+	<classes>
+	<class name="com.cadence.bench.launchFb" />
+	</classes>
+	
 
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

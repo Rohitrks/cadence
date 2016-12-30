@@ -23,7 +23,7 @@ public static void m()
 	}
 	
 	
-	@Test(groups="n")
+	@Test()
 	public static void n1(){
 				System.out.println("Executing n1 method ");
 	}

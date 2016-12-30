@@ -5,6 +5,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class Driver {
+	
+	//System.setProperty("webdriver.gecko.driver", "C:\\Users\\shrohit\\Documents\\GitHub\\cadence\\drivers\\win\\geckodriver.exe");
+    //WebDriver driver = new FirefoxDriver();
 	static FirefoxProfile fp = new FirefoxProfile();
 	public static WebDriver driver= new FirefoxDriver(fp);
 
