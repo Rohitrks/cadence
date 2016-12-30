@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<test name="Test" parallel="false" preserve-order="false" verbose="2">
 	<classes>
-	<class name="com.cadence.bench.launchFb" />
+	<class name="com.cadence.bench.PrintTest" />
 	</classes>
 	
 
